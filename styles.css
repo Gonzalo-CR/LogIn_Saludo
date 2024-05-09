@@ -1,0 +1,99 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+
+header {
+    background-color: #e96262;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#mainContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 7em;
+    border: rgb(66, 65, 65) solid ;
+    border-radius: 5em;
+    background: linear-gradient(37deg, #333 0%, #e96262 20%, #333 50%, #f0f 52%, #e96262 53%, #45a049 85%);
+
+}
+
+#loginContainer {
+    /* margin-bottom: 20px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#usernameInput {
+    padding: 10px;
+    margin-right: 10px;
+}
+
+#loginButton {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#loginButton:hover {
+    background-color: #45a049;
+}
+
+.hidden {
+    display: none;
+}
+
+
+/* header {
+    background-color: #e96262;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+} */
+
+#userInfo {
+    font-size: 2em; /* Hace que el texto sea más grande */
+    color: #FF6347; /* Cambia el color del texto a un tono alegre de naranja */
+    font-weight: bold; /* Hace que el texto sea negrita */
+    text-shadow: 2px 2px 4px #000000; /* Añade una sombra al texto para que destaque */
+    animation: bounce 1s infinite; /* Añade una animación para que el texto rebote */
+    margin: 0.2em;
+    padding-right: 0.6em;
+
+}
+
+/* Define la animación 'bounce' */
+@keyframes bounce {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-20px); }
+}
+
+
+
+
+
+/* background: linear-gradient(37deg, #333 0%, #e96262 20%, #333 50%, #f0f 56%, #e96262 52%, #45a049 85%); */
